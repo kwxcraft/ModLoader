@@ -1,0 +1,1076 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Plugins">
+      <UniqueIdentifier>{04930dce-385f-4164-84cd-a62f7877c4e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Command">
+      <UniqueIdentifier>{1f40fc93-da93-4bf6-9396-28a438992c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Command\内置命令">
+      <UniqueIdentifier>{dc97860c-9aa7-46ef-b64b-9cf9ac0da815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Command\命令系统">
+      <UniqueIdentifier>{096733db-5ab7-44f9-88a9-f3a1409fd32e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Command\命令系统\添加命令">
+      <UniqueIdentifier>{786ade74-dc18-488b-84b9-79fe5c41b1e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SDK">
+      <UniqueIdentifier>{2ab80f90-5579-4c6f-91bb-650747947301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\boost">
+      <UniqueIdentifier>{eda13eb2-0cfd-447a-b1b1-a4d83232c94c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\boost\accumulators">
+      <UniqueIdentifier>{e747196e-6286-471d-8ebe-85193eb493a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\boost\algorithm">
+      <UniqueIdentifier>{162a80aa-e8b1-47a7-b11a-627857463795}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugins.cpp">
+      <Filter>头文件\Plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>头文件\Command\命令系统</Filter>
+    </ClCompile>
+    <ClCompile Include="AddCommand.cpp">
+      <Filter>头文件\Command\命令系统\添加命令</Filter>
+    </ClCompile>
+    <ClCompile Include="命令.cpp">
+      <Filter>头文件\Command\内置命令</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="命令.h">
+      <Filter>头文件\Command\内置命令</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugins.h">
+      <Filter>头文件\Plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="AddCommand.h">
+      <Filter>头文件\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>头文件\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadMods.h">
+      <Filter>头文件\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\accumulators.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\accumulators_fwd.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics_fwd.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\framework\accumulator_base.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\framework\accumulator_concept.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\framework\accumulator_set.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\framework\depends_on.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\framework\external.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\framework\extractor.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\framework\features.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\framework\accumulators\droppable_accumulator.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\framework\accumulators\external_accumulator.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\framework\accumulators\reference_accumulator.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\framework\accumulators\value_accumulator.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\framework\parameters\accumulator.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\framework\parameters\sample.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\framework\parameters\weight.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\framework\parameters\weights.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\numeric\functional.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\numeric\functional_fwd.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\numeric\detail\function1.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\numeric\detail\function2.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\numeric\detail\function3.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\numeric\detail\function4.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\numeric\detail\function_n.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\numeric\detail\pod_singleton.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\numeric\functional\complex.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\numeric\functional\valarray.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\numeric\functional\vector.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\count.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\covariance.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\density.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\error_of.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\error_of_mean.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\extended_p_square.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\extended_p_square_quantile.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\kurtosis.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\max.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\mean.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\median.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\min.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\moment.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\peaks_over_threshold.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\pot_quantile.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\pot_tail_mean.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\p_square_cumulative_distribution.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\p_square_cumul_dist.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\p_square_quantile.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\rolling_count.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\rolling_mean.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\rolling_moment.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\rolling_sum.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\rolling_variance.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\rolling_window.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\skewness.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\stats.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\sum.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\sum_kahan.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\tail.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\tail_mean.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\tail_quantile.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\tail_variate.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\tail_variate_means.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\times2_iterator.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\variance.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\weighted_covariance.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\weighted_density.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\weighted_extended_p_square.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\weighted_kurtosis.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\weighted_mean.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\weighted_median.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\weighted_moment.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\weighted_peaks_over_threshold.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\weighted_p_square_cumulative_distribution.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\weighted_p_square_cumul_dist.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\weighted_p_square_quantile.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\weighted_skewness.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\weighted_sum.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\weighted_sum_kahan.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\weighted_tail_mean.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\weighted_tail_quantile.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\weighted_tail_variate_means.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\weighted_variance.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\with_error.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\parameters\quantile_probability.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\accumulators\statistics\variates\covariate.hpp">
+      <Filter>头文件\boost\accumulators</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\algorithm.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\apply_permutation.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\clamp.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\find_backward.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\find_not.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\gather.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\hex.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\is_clamped.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\is_palindrome.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\is_partitioned_until.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\minmax.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\minmax_element.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\sort_subrange.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string_regex.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx11\all_of.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx11\any_of.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx11\copy_if.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx11\copy_n.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx11\find_if_not.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx11\iota.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx11\is_partitioned.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx11\is_permutation.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx11\is_sorted.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx11\none_of.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx11\one_of.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx11\partition_copy.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx11\partition_point.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx14\equal.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx14\is_permutation.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx14\mismatch.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx17\exclusive_scan.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx17\for_each_n.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx17\inclusive_scan.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx17\reduce.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx17\transform_exclusive_scan.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx17\transform_inclusive_scan.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\cxx17\transform_reduce.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\searching\boyer_moore.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\searching\boyer_moore_horspool.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\searching\knuth_morris_pratt.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\searching\detail\bm_traits.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\searching\detail\debugging.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\case_conv.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\classification.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\compare.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\concept.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\config.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\constants.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\erase.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\find.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\finder.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\find_format.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\find_iterator.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\formatter.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\iter_find.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\join.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\predicate.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\predicate_facade.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\regex.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\regex_find_format.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\replace.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\sequence_traits.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\split.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\std_containers_traits.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\trim.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\trim_all.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\yes_no_type.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\detail\case_conv.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\detail\classification.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\detail\finder.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\detail\finder_regex.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\detail\find_format.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\detail\find_format_all.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\detail\find_format_store.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\detail\find_iterator.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\detail\formatter.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\detail\formatter_regex.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\detail\predicate.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\detail\replace_storage.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\detail\sequence.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\detail\trim.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\detail\util.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\std\list_traits.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\std\rope_traits.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\std\slist_traits.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\algorithm\string\std\string_traits.hpp">
+      <Filter>头文件\boost\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\align.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\aligned_storage.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\any.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\array.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\asio.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\assert.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\assign.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\atomic.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\bimap.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\bind.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\blank.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\blank_fwd.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\call_traits.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\callable_traits.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\cast.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\cerrno.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\checked_delete.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\chrono.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\circular_buffer.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\circular_buffer_fwd.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\compressed_pair.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\compute.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\concept_archetype.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\concept_check.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\config.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\contract.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\contract_macro.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\convert.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\crc.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\cregex.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\cstdfloat.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\cstdint.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\cstdlib.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\current_function.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\cxx11_char_types.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\date_time.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\describe.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\dll.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\dynamic_bitset.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\dynamic_bitset_fwd.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\enable_shared_from_this.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\endian.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\exception_ptr.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\filesystem.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\flyweight.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\foreach.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\foreach_fwd.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\format.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\function.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\function_equal.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\function_output_iterator.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\functional.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\generator_iterator.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\geometry.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\get_pointer.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\gil.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\hana.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\histogram.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\hof.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\implicit_cast.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\indirect_reference.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\integer.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\integer_fwd.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\integer_traits.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive_ptr.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\io_fwd.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\is_placeholder.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\iterator.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\iterator_adaptors.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\json.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\lambda2.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\leaf.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\lexical_cast.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\limits.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\local_function.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\locale.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\make_default.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\make_shared.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\make_unique.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\math_fwd.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mem_fn.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\memory_order.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\metaparse.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mpi.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\multi_array.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\multi_index_container.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\multi_index_container_fwd.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\next_prior.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\non_type.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\noncopyable.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\nondet_random.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\none.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\none_t.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\operators.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\operators_v1.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\optional.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\outcome.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\parameter.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\pfr.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\phoenix.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\pointee.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\pointer_cast.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\pointer_to_other.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\polymorphic_cast.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\polymorphic_pointer_cast.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\predef.h">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\preprocessor.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\process.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\program_options.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\progress.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\python.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\qvm.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\qvm_lite.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\random.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\range.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\ratio.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\rational.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\ref.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\regex.h">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\regex.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\regex_fwd.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\scope_exit.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\scoped_array.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\scoped_ptr.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\shared_array.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\shared_container_iterator.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\shared_ptr.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\signals2.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\smart_ptr.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\spirit.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\stacktrace.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\static_assert.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\static_string.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\swap.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\system.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\thread.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\throw_exception.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\timer.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\token_functions.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\token_iterator.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\tokenizer.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_index.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\unordered_map.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\unordered_set.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\utility.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\variant.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\variant2.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\version.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\visit_each.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\wave.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\weak_ptr.hpp">
+      <Filter>头文件\boost</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LoadMods.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
